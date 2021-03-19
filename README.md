@@ -1,5 +1,6 @@
-# Interview preperation notes including questions and answers
-## Questions
+# Week 1 Business Week
+## Inteview questions and answers
+### Questions
 -What is DevOps and what is the benefit of it?<br>
 DevOps is a set of practices combining software development and IT operations designed to shorten the systems development life cycle by reducing time taken for communication between different teams. <br>
 
@@ -14,3 +15,33 @@ Agile is a style of software development focused on iterative development where 
 
 -What is SCRUM and what is the benefit of implementing it? <br>
 SCRUM is an agile framework that emphasises teamwork and accountability with daily standups and retrospectives to highlight any issues or improvements that can be made. <br>
+
+# Week 2 SQL
+## Theory
+### MAny
+
+### Normalisation
+#### 1st Normal Form
+- Each table cell contains a single value.
+- Each record needs to be unique.
+Example: 
+
+#### 2nd Normal Form
+- Single column Primary Key.
+- Meets conditions from 1st Normal Form.
+Example: 
+
+#### 3rd Normal Form
+- Has no transitive functional dependencies.
+- Meets conditions from 2nd Normal Form.
+Example: 
+
+## SQL notes
+### Syntax
+- SELECT
+- DISTINCT
+- FROM
+- WHERE
+- GROUP BY
+- HAVING
+- ORDER BY

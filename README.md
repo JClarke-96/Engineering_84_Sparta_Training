@@ -52,17 +52,17 @@ Commands include: SELECT, INSERT, UPDATE, DELETE, MERGE, CALL, EXPLAIN PLAN, & L
 ### Normalisation
 #### 1st Normal Form
 - Each table cell contains a single value.
-- Each record needs to be unique.
+- Each record needs to be unique.<br>
 Example: 
 
 #### 2nd Normal Form
 - Single column Primary Key.
-- Meets conditions from 1st Normal Form.
+- Meets conditions from 1st Normal Form.<br>
 Example: 
 
 #### 3rd Normal Form
 - Has no transitive functional dependencies.
-- Meets conditions from 2nd Normal Form.
+- Meets conditions from 2nd Normal Form.<br>
 Example: 
 
 ### Entity Relationship Diagram

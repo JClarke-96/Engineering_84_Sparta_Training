@@ -68,11 +68,14 @@ Example:
 ### Entity Relationship Diagram
 An entity relationship diagram shows data structures within databases. These diagram show each table and the fields within them, highlighting Primary and Foreign Keys as well as showing the relationships they form between tables. These relationships can be in three different types.
 
-<strong>One to One</strong> - 
+<strong>One to One</strong> - Each value for a table links to only one value in another.<br>
+Example: A store has one manager, a manager only works at one store.
   
-<strong>One to Many</strong> - 
+<strong>One to Many</strong> - Each value for a table can link to many values in another.<br>
+Example: A store can have many employees, an employee can only work at one store.
 
-<strong>Many to Many</strong> - 
+<strong>Many to Many</strong> - Each value can have many values from either table.<br>
+Example: A customer can shop at many stores, a store can have many customers.
 
 ## SQL notes
 ### Syntax
@@ -83,3 +86,9 @@ An entity relationship diagram shows data structures within databases. These dia
 - GROUP BY
 - HAVING
 - ORDER BY
+
+# Week 3 Python
+## What is Git?
+
+## What is GitHub?
+

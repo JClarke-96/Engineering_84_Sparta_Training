@@ -18,7 +18,36 @@ SCRUM is an agile framework that emphasises teamwork and accountability with dai
 
 # Week 2 SQL
 ## Theory
-### MAny
+### Join
+A JOIN combines rows from two or more tables based on a related column shared between tables. For example, a store that has customers with membership may have a database of customers, and a database of customer trends. These databases will share a Customer ID which is used to connect the two.
+
+#### Types of Join
+<strong>INNER JOIN</strong> - Returns records that have values in both tables.
+
+<strong>LEFT JOIN</strong> - Returns all records in the left table, with matched records from the right table.
+
+<strong>RIGHT JOIN</strong> - Returns all records in the right table, with matched records from the left table.
+
+<strong>OUTER JOIN</strong> - Returns all records with a match in either the left or right tables.
+
+### SQL Keys
+Keys in SQL are used to fetch records and create relationships using different types of JOIN.
+
+#### Types of Key
+<strong>Primary Key</strong> - Used to uniquely identify a record in a database table. It cannot contain null or duplicate values.
+
+<strong>Foreign Key</strong> - Is a Primary Key in a different table and can contain null or duplicate values.
+
+<strong>Composite Key</strong> - Combination of more than one field or column and can be used as a Primary Key.
+
+### DML / DDL
+#### DDL (Data Definition Language)
+Deals with database layout, descriptions, and how data should reside in the database.<br>
+Commands include: CREATE, ALTER, DROP, TRUNCATE, COMMENT, & RENAME.
+
+#### DML (Data Manipulation Language)
+Deals with data manipulation to store, modify, retrieve, delete, and update data in a database.<br>
+Commands include: SELECT, INSERT, UPDATE, DELETE, MERGE, CALL, EXPLAIN PLAN, & LOCK TABLE.
 
 ### Normalisation
 #### 1st Normal Form
@@ -35,6 +64,9 @@ Example:
 - Has no transitive functional dependencies.
 - Meets conditions from 2nd Normal Form.
 Example: 
+
+### Entity Relationship Diagram
+An entity relationship diagram shows data structures within databases.
 
 ## SQL notes
 ### Syntax

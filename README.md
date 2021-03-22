@@ -66,7 +66,13 @@ Example:
 Example: 
 
 ### Entity Relationship Diagram
-An entity relationship diagram shows data structures within databases.
+An entity relationship diagram shows data structures within databases. These diagram show each table and the fields within them, highlighting Primary and Foreign Keys as well as showing the relationships they form between tables. These relationships can be in three different types.
+
+<strong>One to One</strong> - 
+  
+<strong>One to Many</strong> - 
+
+<strong>Many to Many</strong> - 
 
 ## SQL notes
 ### Syntax

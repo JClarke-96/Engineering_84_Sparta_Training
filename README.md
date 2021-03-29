@@ -100,3 +100,8 @@ Example: A customer can shop at many stores, a store can have many customers.
 ## What is API?
 
 ## What is PIP?
+
+
+# Week 4 Python
+## What is TDD?
+### Why use TDD?

@@ -117,5 +117,6 @@ Example: A customer can shop at many stores, a store can have many customers.
 
 # Week 5 Plane Project
 ## What did we do?
+### How did we use DRY?
 ### How did we use OOP?
 ### How did we use TDD?

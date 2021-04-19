@@ -57,17 +57,14 @@ Commands include: SELECT, INSERT, UPDATE, DELETE, MERGE, CALL, EXPLAIN PLAN, & L
 #### 1st Normal Form
 - Each table cell contains a single value.
 - Each record needs to be unique.<br>
-Example: 
 
 #### 2nd Normal Form
 - Single column Primary Key.
 - Meets conditions from 1st Normal Form.<br>
-Example: 
 
 #### 3rd Normal Form
 - Has no transitive functional dependencies.
 - Meets conditions from 2nd Normal Form.<br>
-Example: 
 
 ### Entity Relationship Diagram
 An entity relationship diagram shows data structures within databases. These diagram show each table and the fields within them, highlighting Primary and Foreign Keys as well as showing the relationships they form between tables. These relationships can be in three different types.
@@ -92,12 +89,12 @@ Example: A customer can shop at many stores, a store can have many customers.
 - ORDER BY
 
 # Week 3 Python
-## What is Git?
-
-## What is GitHub?
+## What is Git & GitHub?
+Git is used for version control of software, pushing projects to a repository where versions are stored as different iterations. GitHub is a website used to store and view repositories online.
 
 ## What is OOP?
 ### Benefits of OOP
+Allows code to be reused meaning it doesn't have to be repeated in multiple locations, reduces data redundancy, and security with hiding information using abstraction.
 
 ### Four Pillars of OOP
 - Inheritence (sharing of information)
@@ -106,17 +103,22 @@ Example: A customer can shop at many stores, a store can have many customers.
 - Polymorphism (redefining of information)
 
 ## What is API?
+Application Programming Interface is an interface that defines interactions between multiple software applications or mixed hardware-software intermediaries.
 
 ## What is PIP?
-
+PIP is a package-management system for Python, used to install and manage software packages.
 
 # Week 4 Python
 ## What is TDD?
-### Why use TDD?
+Test Driven Development is used to test code before it is written. Tests are created that would be expected to pass after the code is complete, then the tests are ran and all fail as the code does not exist. Code is then written in order to make the tests pass, after they all pass you have an initial iteration of the working code.
 
+### Why use TDD?
+Test Driven Development reduces the number of bugs in production and improves code quality, making it easier to maintain and understand.
 
 # Week 5 Plane Project
 ## What did we do?
 ### How did we use DRY?
 ### How did we use OOP?
 ### How did we use TDD?
+
+# Week 6 Virtualisation

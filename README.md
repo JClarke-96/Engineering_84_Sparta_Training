@@ -3,6 +3,10 @@
 ### Questions
 #### What is DevOps and what is the benefit of it?
 DevOps is a set of practices combining software development and IT operations designed to shorten the systems development life cycle by reducing time taken for communication between different teams.
+- Ease of use
+- Flexibility
+- Robustness
+- Cost
 
 #### Why do you want to work for Sparta Global?
 Sparta provides comprehensive training for DevOps and many other areas, working with Sparta will allow me to upskill before working with a client to obtain crucial experience for a career.
